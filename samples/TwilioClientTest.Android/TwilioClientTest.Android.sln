@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioClientTest.Android", "TwilioClientTest.Android.csproj", "{406B1BFC-9703-40CD-ADC3-0F4EC9910EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406B1BFC-9703-40CD-ADC3-0F4EC9910EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B1BFC-9703-40CD-ADC3-0F4EC9910EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B1BFC-9703-40CD-ADC3-0F4EC9910EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B1BFC-9703-40CD-ADC3-0F4EC9910EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

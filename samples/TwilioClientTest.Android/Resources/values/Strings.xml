@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="dial">Dial</string>
+	<string name="hangup">Hangup</string>
+	<string name="app_name">Monkey Phone</string>
+	<string name="ready">Ready</string>
+	<string name="outgoingSound">Outgoing Sound</string>
+	<string name="incomingSound">Incoming Sound</string>
+	<string name="disconnectSound">Disconnect Sound</string>
+	<string name="iWantThisToSayStuff">I want this to say stuff</string>
+	<string name="options">OPTIONS</string>
+	<string name="deviceListening">Device Listening</string>
+	<string name="muted">Muted</string>
+</resources>	

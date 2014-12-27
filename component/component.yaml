@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+name: Twilio Client
+id: twilio-client
+publisher: Twilio
+license: License.md
+icons: 
+  - twilio-client_128x128.png
+  - twilio-client_512x512.png
+publisher-url: http://twilio.com
+libraries: 
+  android: ../libs/android/TwilioClient.Android.dll
+  ios: ../libs/ios/TwilioClient.iOS.dll
+  ios-unified: ../libs/ios-unified/TwilioClient.iOS-Unified.dll
+summary: Official Twilio Client SDK for Xamarin. Twilio Client makes it easy for you to add VoIP features to your apps.
+details: Details.md
+screenshots: 
+  - screenshots/twilio-client-placed.png
+getting-started: GettingStarted.md
+version: "1.2"
+samples: 
+  - name: "iOS Sample"
+    path: ../samples/TwilioClientTest.iOS/TwilioClientTest.iOS.sln
+    configuration: "Release|iPhone"
+    nobuild: true
+  - name: "iOS Unified Sample"
+    path: ../samples/TwilioClientTest.iOS.Unified/TwilioClientTest.iOS.Unified.sln
+    configuration: "Release|iPhone"
+    nobuild: true
+  - name: "Android Sample"
+    path: ../samples/TwilioClientTest.Android/TwilioClientTest.Android.sln
+    configuration: "Release"
+    nobuild: true
+...

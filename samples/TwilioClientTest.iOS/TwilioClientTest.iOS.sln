@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioClientTest.iOS", "TwilioClientTest.iOS.csproj", "{EF427953-A2E0-4110-8635-AA6DEEC14E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Release|iPhone.Build.0 = Release|iPhone
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EF427953-A2E0-4110-8635-AA6DEEC14E7C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

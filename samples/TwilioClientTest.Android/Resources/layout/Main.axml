@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:text="CALL OPTIONS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/callOptionsLabel"
+            android:layout_marginTop="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Target"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/targetLabel"
+                android:layout_gravity="bottom"
+                android:textAlignment="inherit"
+                android:gravity="center_vertical"
+                android:layout_marginRight="5dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/targetText" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/dialButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dial" />
+        <TextView
+            android:text="STATUS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusLabel"
+            android:layout_marginTop="20dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Device"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/deviceStatusText" />
+            <TextView
+                android:text="@string/ready"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/deviceStatus"
+                android:layout_gravity="end"
+                android:gravity="right"
+                android:textColor="@android:color/secondary_text_dark" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Connection"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/connectionStatusText" />
+            <TextView
+                android:text="Uninitialized"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/connectionStatus"
+                android:layout_gravity="end"
+                android:gravity="right"
+                android:textColor="@android:color/secondary_text_dark" />
+        </LinearLayout>
+        <TextView
+            android:text="SOUNDS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/soundsLabel"
+            android:layout_marginTop="20dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/disconnectSound"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/disconnectLabel"
+                android:layout_weight="7"
+                android:gravity="center_vertical" />
+            <ToggleButton
+                android:layout_width="100dp"
+                android:id="@+id/disconnectSound"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:checked="true"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="@string/incomingSound"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/incomingLabel"
+                android:layout_weight="7"
+                android:gravity="center_vertical" />
+            <ToggleButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/incomingSound"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:checked="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="@string/outgoingSound"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/outgoingLabel"
+                android:layout_weight="7"
+                android:gravity="center_vertical" />
+            <ToggleButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/outgoingSound"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:checked="true" />
+        </LinearLayout>
+        <TextView
+            android:text="@string/options"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionsLabel"
+            android:layout_marginTop="20dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="@string/muted"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mutedLabel"
+                android:layout_weight="7"
+                android:gravity="center_vertical" />
+            <ToggleButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/muted"
+                android:gravity="center"
+                android:layout_weight="3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="@string/deviceListening"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/deviceListeningLabel"
+                android:layout_weight="7"
+                android:gravity="center_vertical" />
+            <ToggleButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/deviceListening"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:checked="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
