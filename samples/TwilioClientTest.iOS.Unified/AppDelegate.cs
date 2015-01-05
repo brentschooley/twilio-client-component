@@ -90,7 +90,7 @@ namespace TwilioClientTest.iOS
 			this.Window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 			var client = new HttpClient ();
-			var token = await client.GetStringAsync("** Your AuthToken URL goes here **");
+			var token = await client.GetStringAsync("** Your Auth Token URL goes here **");
 
 			device = new TCDevice (token, null);
 
