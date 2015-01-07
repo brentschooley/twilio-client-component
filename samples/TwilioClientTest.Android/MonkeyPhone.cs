@@ -44,7 +44,7 @@ namespace TwilioClientTest.Android
 		public void Connect(string target)
 		{
 			var parameters = new Dictionary<string, string> () {
-				{ "Source", "+12152407664"},
+				{ "Source", "** Your Twilio phone number goes here **"},
 				{ "Target", target}
 			};
 
@@ -154,10 +154,8 @@ namespace TwilioClientTest.Android
 			Console.WriteLine ("Twilio SDK is ready.");
 
 			try {
-				var clientName = "xamarin";
-
 				var client = new HttpClient ();
-				var token = await client.GetStringAsync ("http://twilioclientazure.azurewebsites.net/Client/Token");
+				var token = await client.GetStringAsync ("** Your Auth Token URL goes here **");
 
 				Device = Twilio.CreateDevice(token, null);
 
