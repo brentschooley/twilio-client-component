@@ -145,6 +145,12 @@ namespace TwilioClientTest.Android
 					}
 					connectionState.Text = textInfo.ToTitleCase(phone.Connection.State.ToString ().ToLower());
 				}
+				else
+				{
+					// We're disconnected
+					dialButton.Text = GetString(Resource.String.dial);
+					connectionState.Text = "Disconnected";
+				}
 			});
 		}
 	}

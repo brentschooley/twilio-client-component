@@ -15,6 +15,7 @@ namespace TwilioClientTest.Android
 	public class MonkeyPhone : Java.Lang.Object, Twilio.IInitListener, IDeviceListener, IConnectionListener
 	{
 		private const string TAG = "MonkeyPhone";
+
 		Context context;
 
 		public IConnection Connection {
@@ -44,7 +45,7 @@ namespace TwilioClientTest.Android
 		public void Connect(string target)
 		{
 			var parameters = new Dictionary<string, string> () {
-				{ "Source", "** Your Twilio phone number goes here **"},
+				{ "Source", $"*** YOUR TWILIO PHONE NUMBER ***"},
 				{ "Target", target}
 			};
 
@@ -155,7 +156,7 @@ namespace TwilioClientTest.Android
 
 			try {
 				var client = new HttpClient ();
-				var token = await client.GetStringAsync ("** Your Auth Token URL goes here **");
+				var token = await client.GetStringAsync ($"*** YOUR AUTH TOKEN URL ***");
 
 				Device = Twilio.CreateDevice(token, null);
 

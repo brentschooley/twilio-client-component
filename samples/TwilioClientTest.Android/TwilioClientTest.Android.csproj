@@ -45,7 +45,7 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System.Net.Http" />
     <Reference Include="TwilioClient.Android">
-      <HintPath>..\..\libs\android\TwilioClient.Android.dll</HintPath>
+      <HintPath>..\..\..\twilio-client-xamarin\TwilioClient.Android\bin\Debug\TwilioClient.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,7 +67,7 @@
     <AndroidResource Include="Resources\raw\incoming.wav" />
     <AndroidResource Include="Resources\raw\outgoing.wav" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\raw\" />
